@@ -15,8 +15,8 @@ public class Main {
         int [] newArray = {1, 4, 6, 12, 5};
         int last = newArray[0];
         newArray[0] = newArray[4];
-        newArray[4] = last;
+        newArray[newArray.length - 1] = last;
 
-        System.out.println(newArray[0] + newArray[2]);
+        System.out.println(newArray[0] + newArray[newArray.length / 2]);
     }
 }
