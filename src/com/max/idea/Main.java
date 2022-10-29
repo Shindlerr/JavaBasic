@@ -10,10 +10,7 @@ public class Main {
         System.out.println("Hello World!");
 
         // Task 2
-        float a = 123.456f;
-        byte b = 127;
-        System.out.println(a);
-        System.out.println(b);
+
 
         // Task 3
 

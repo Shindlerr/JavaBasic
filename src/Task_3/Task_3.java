@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Task_3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int [] newArray = {1, 4, 6, 12, 5};
         int last = newArray[0];
         newArray[0] = newArray[4];
