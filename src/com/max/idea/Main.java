@@ -22,14 +22,14 @@ public class Main {
         newArray[newArray.length - 1] = last;
 
         System.out.println(newArray[0] + newArray[newArray.length / 2]);
-
+        */
         //Task 4
 
 
         int x = sc.nextInt();
         int y = sc.nextInt();
         int z = sc.nextInt();
-        int num[] = {x, y, z};
+       // int num[] = {x, y, z};
         int result = (x + y + z) / 3;
         //System.out.println(result);
         int round = result / 2;
@@ -40,7 +40,7 @@ public class Main {
 
         //Task 5
 
-        int af = sc.nextInt();
+        /* int af = sc.nextInt();
         int bf = sc.nextInt();
         String sign = sc.next();
         switch (sign) {
