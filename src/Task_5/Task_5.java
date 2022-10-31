@@ -22,6 +22,7 @@ public class Task_5 {
                     } else System.out.println(a / b);
                     break;
             default: System.out.println("Не знаю таких операций");
+
         }
 
     }
