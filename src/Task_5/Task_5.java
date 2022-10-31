@@ -8,17 +8,20 @@ public class Task_5 {
         Scanner sc = new Scanner(System.in);
 
         double a = sc.nextInt();
+        char res = sc.next().charAt(0);
         double b = sc.nextInt();
-        String res = sc.next();
         switch (res) {
-            case "+": System.out.println(a + b);
+            case '+': System.out.println(a + b);
                     break;
-            case "-": System.out.println(a - b);
+            case '-': System.out.println(a - b);
                     break;
-            case "*": System.out.println(a * b);
+            case '*': System.out.println(a * b);
                     break;
-            case "/": System.out.println(a / b);
+            case '/': if (b == 0){
+                        System.out.println("Делить на ноль? Ты в своём уме?");
+                    } else System.out.println(a / b);
                     break;
+            default: System.out.println("Не знаю таких операций");
         }
 
     }
