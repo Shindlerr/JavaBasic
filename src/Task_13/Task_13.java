@@ -15,11 +15,11 @@ public class Task_13 {
 
         /* for (int i = 0; i < newArray.length; i++) {
             System.out.println(newArray[i]);
-        }*/
+        }
         for (int i = 0; i < newArray.length; i++) {
             int result;
             result = newArray[i].compareTo(i);
-        }
+        }*/
 
     }
 }
